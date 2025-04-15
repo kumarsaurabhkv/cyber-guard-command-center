@@ -92,8 +92,8 @@ const SecurityMetrics = () => {
             <PieChart>
               <Pie
                 data={riskDistribution}
-                cx="50%"
-                cy="50%"
+                cx="70%"
+                cy="70%"
                 innerRadius={60}
                 outerRadius={80}
                 paddingAngle={2}
