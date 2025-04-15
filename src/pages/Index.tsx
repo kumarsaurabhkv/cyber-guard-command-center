@@ -24,37 +24,37 @@ const Index = () => {
           />
           <StatusCard 
             title="Active Threats" 
-            value={2} 
+            value="2" 
             icon={AlertTriangle}
             status="critical"
             trend={{ value: 2, isPositive: false }}
           />
           <StatusCard 
             title="Vulnerabilities" 
-            value={15} 
+            value="15" 
             icon={Scan}
             status="warning"
             trend={{ value: 3, isPositive: true }}
           />
           <StatusCard 
             title="Systems Monitored" 
-            value={5} 
+            value="5" 
             icon={Server}
             status="normal"
           />
         </div>
         
         {/* Security Metrics */}
-        <SecurityMetrics />
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+          <SecurityMetrics />
+          <AlertsPanel />
+        </div>
         
-        {/* Alerts */}
-        <AlertsPanel />
-        
-        {/* Network Scanner */}
-        <NetworkScanner />
-        
-        {/* System Health */}
-        <SystemHealth />
+        {/* Network Scanner and System Health */}
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+          <NetworkScanner />
+          <SystemHealth />
+        </div>
         
         {/* Log Viewer */}
         <LogViewer />

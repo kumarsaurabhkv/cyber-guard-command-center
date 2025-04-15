@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -95,6 +94,26 @@
     content: "";
     @apply absolute w-2 h-2 rounded-full bg-destructive animate-pulse -left-4;
   }
+
+  .dashboard-card {
+    @apply p-6 rounded-lg cyber-border relative overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .dashboard-card::before {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent opacity-0 transition-opacity;
+  }
+
+  .dashboard-card:hover::before {
+    @apply opacity-100;
+  }
+
+  .dashboard-card::after {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-[2px] bg-primary/30;
+    animation: scan 2s linear infinite;
+  }
 }
 
 /* 3D Animation Keyframes */
@@ -142,4 +161,16 @@
 .progress-indicator {
   @apply h-full w-full flex-1 transition-all;
   background-color: var(--progress-foreground);
+}
+
+@keyframes cardHover {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
