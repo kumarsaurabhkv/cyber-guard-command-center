@@ -27,7 +27,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
 
       {/* Sidebar */}
       <div className={cn(
-        "fixed inset-y-0 left-0 z-50 w-64 transform transition-transform duration-200 ease-in-out lg:relative lg:translate-x-0",
+        "fixed inset-y-0 left-0 z-50 transform transition-all duration-200 ease-in-out lg:relative lg:translate-x-0",
         collapsed ? "w-16" : "w-64",
         mobileMenuOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
       )}>
@@ -52,6 +52,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             </ul>
           </div>
           
+          {/* User profile section */}
           <div className="p-4 border-t border-border">
             {!collapsed ? (
               <div className="flex items-center space-x-3">
@@ -80,7 +81,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
         />
         
         {/* Main content area */}
-        <main className="p-4 md:p-6 max-w-7xl mx-auto">
+        <main className="p-4 md:p-6 lg:p-8 max-w-[1920px] mx-auto">
           {children}
         </main>
       </div>
