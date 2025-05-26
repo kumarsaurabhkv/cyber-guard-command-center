@@ -16,10 +16,10 @@ This project is built using the following technologies:
 
 Badges for quick reference:
 
-[![Vite]([invalid url, do not cite])](https://vitejs.dev/)
-[![TypeScript]([invalid url, do not cite])](https://www.typescriptlang.org/)
-[![React]([invalid url, do not cite])](https://reactjs.org/)
-[![Tailwind CSS]([invalid url, do not cite])](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+[![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
 ## Prerequisites
 
