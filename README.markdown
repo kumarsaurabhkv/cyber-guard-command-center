@@ -21,6 +21,9 @@ Badges for quick reference:
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
+## 📸 Screenshots
+<a href="https://freeimage.host/i/dTA5EQf"><img src="https://iili.io/dTA5EQf.md.png" alt="dTA5EQf.md.png" border="0"></a>
+
 ## Prerequisites
 
 To work on this project, ensure you have the following installed:
