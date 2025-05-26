@@ -87,8 +87,7 @@ Contributions are welcome! To contribute:
 
 ## License
 
-[License information to be added]  
-*(Replace with the appropriate license, e.g., MIT, GPL, etc.)*
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). This means you are free to use, modify, and distribute this software, but any derivative works must also be licensed under the GPL-3.0 and their source code must be made available. For more details, see the LICENSE file in the repository or visit the GPL-3.0 license page.
 
 ## Contact
 
