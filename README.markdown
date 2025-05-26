@@ -22,7 +22,8 @@ Badges for quick reference:
 [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
 ## 📸 Screenshots
-<a href="https://raw.githubusercontent.com/kumarsaurabhkv/cyber-guard-command-center/refs/heads/main/screenshot/Screenshot%202025-05-26%20163820.png"></a>
+![Screenshot](https://raw.githubusercontent.com/kumarsaurabhkv/cyber-guard-command-center/refs/heads/main/screenshot/Screenshot%202025-05-26%20163820.png)
+
 
 ## Prerequisites
 
