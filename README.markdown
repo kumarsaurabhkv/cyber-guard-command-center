@@ -25,19 +25,21 @@ Badges for quick reference:
 ![Screenshot](https://raw.githubusercontent.com/kumarsaurabhkv/cyber-guard-command-center/refs/heads/main/screenshot/Screenshot%202025-05-26%20163820.png)
 
 
-## Prerequisites
+## 🧰 Prerequisites
 
-To work on this project, ensure you have the following installed:
+Make sure the following are installed:
 
-- **Node.js**: Required for running the application. Use [nvm (Node Version Manager)]([invalid url, do not cite]) to manage Node.js versions.
-- **npm**: Comes bundled with Node.js for dependency management.
+- **Node.js** – Required to run the app. Use [nvm](https://github.com/nvm-sh/nvm) to manage Node versions.
+- **npm** – Comes with Node.js for managing packages.
+
+---
 
 ## Installation
 
 Follow these steps to set up the project locally:
 
 1. **Install Node.js and npm** (if not already installed):
-   - Install nvm: [[invalid url, do not cite]
+   - Install nvm:  [nvm](https://github.com/nvm-sh/nvm)
    - Install the required Node.js version (check `.nvmrc` if present):
      ```bash
      nvm install
@@ -63,11 +65,15 @@ Follow these steps to set up the project locally:
    npm run dev
    ```
 
-The application will be available at `[invalid url, do not cite] (Vite's default development server port).
+The application will be available at 
+```bash
+   http://localhost:5173
+   ```
+(Vite's default development server port).
 
 ## Usage
 
-- Once the development server is running, access the application at `[invalid url, do not cite].
+- Once the development server is running, access the application at [localhost:5173](localhost:51730).
 - The dashboard provides tools for monitoring cybersecurity threats and incidents. *(Add specific usage instructions based on your project's functionality.)*
 
 ## Building for Production
